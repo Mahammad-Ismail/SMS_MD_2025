@@ -4,7 +4,7 @@ using SMS_MD.UI.Models;
 
 namespace SMS_MD.UI.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
 
