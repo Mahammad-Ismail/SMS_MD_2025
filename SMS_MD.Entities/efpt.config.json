@@ -6,7 +6,7 @@
    "IncludeConnectionString": false,
    "ModelNamespace": null,
    "OutputContextPath": null,
-   "OutputPath": "Models",
+   "OutputPath": "StoredProcedures",
    "PreserveCasingWithRegex": true,
    "ProjectRootNamespace": "SMS_MD.Entities",
    "Schemas": null,
@@ -15,60 +15,24 @@
    "T4TemplatePath": null,
    "Tables": [
       {
-         "Name": "[dbo].[AppUser]",
-         "ObjectType": 0
+         "Name": "[dbo].[usp_AssignRole]",
+         "ObjectType": 1
       },
       {
-         "Name": "[dbo].[Assessment]",
-         "ObjectType": 0
+         "Name": "[dbo].[usp_CreateUser]",
+         "ObjectType": 1
       },
       {
-         "Name": "[dbo].[Attendance]",
-         "ObjectType": 0
+         "Name": "[dbo].[usp_LinkUserToGuardian]",
+         "ObjectType": 1
       },
       {
-         "Name": "[dbo].[ClassSection]",
-         "ObjectType": 0
+         "Name": "[dbo].[usp_LinkUserToStaff]",
+         "ObjectType": 1
       },
       {
-         "Name": "[dbo].[Course]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[Enrollment]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[Grade]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[Guardian]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[Role]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[Staff]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[Student]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[StudentGuardian]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[Term]",
-         "ObjectType": 0
-      },
-      {
-         "Name": "[dbo].[UserRole]",
-         "ObjectType": 0
+         "Name": "[dbo].[usp_LinkUserToStudent]",
+         "ObjectType": 1
       }
    ],
    "UiHint": null,
