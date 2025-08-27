@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SMS_MD.Entities\SMS_MD.Entities.csproj" />
+    <ProjectReference Include="..\SMS_MD.Models\SMS_MD.Models.csproj" />
+  </ItemGroup>
+
 </Project>
