@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS_MD.Console", "SMS_MD.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS_MD.Entities", "SMS_MD.Entities\SMS_MD.Entities.csproj", "{BE961F74-FB81-40F5-8361-939E6AD42A05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS_MD.Services", "SMS_MD.Services\SMS_MD.Services.csproj", "{DDEE744A-3324-486F-B922-487F2306DFB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BE961F74-FB81-40F5-8361-939E6AD42A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE961F74-FB81-40F5-8361-939E6AD42A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE961F74-FB81-40F5-8361-939E6AD42A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDEE744A-3324-486F-B922-487F2306DFB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEE744A-3324-486F-B922-487F2306DFB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEE744A-3324-486F-B922-487F2306DFB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEE744A-3324-486F-B922-487F2306DFB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SMS_MD.Models.Login;
+using SMS_MD.Services;
 
 namespace SMS_MD.UI.Controllers
 {
@@ -17,12 +18,18 @@ namespace SMS_MD.UI.Controllers
 
         [HttpPost]
         public IActionResult Login(UserDto userdto)
-        {if (!ModelState.IsValid)
+        {if (ModelState.IsValid)
             {
-                
-            }
+                AppUserService _userService = new AppUserService();
+                bool isValidUser = _userService.ValidateUser(userdto);
+                if (isValidUser)
+                {
+                    return RedirectToAction("Index","Home");
+
+                }
+              }
                   
-            return RedirectToAction("Login");
+            return View(User);
         }
 
     }
