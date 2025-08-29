@@ -1,5 +1,9 @@
-var builder = WebApplication.CreateBuilder(args);
+using SMS_MD.Services;
+using SMS_MD.Services.Interfces;
+//using SMS_MD.Services.Interfaces;
 
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<IAppUserService, AppUserService>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
